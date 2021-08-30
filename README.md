@@ -106,22 +106,22 @@ const fauxCreditCard = "abcd 0000 fake 1111 card 2222"
 
 ## Currency Example
 > Implement a function that will determine if a string represents a valid currency amount Such strings will have the following properties: 
->> The amount must consist of base-10 digits 
+> - The amount must consist of base-10 digits 
 >> 
->> The amount may optionally contain thousands separators using the ',' character. 
+> - The amount may optionally contain thousands separators using the ',' character. 
 >> 
->> If thousands separators are present, they must be present at each thousands increment.
+> - If thousands separators are present, they must be present at each thousands increment.
 >> 
->> The amount must be prefixed by the currency symbol. We support US Dollars ($), Euros (€), and Japanese Yen (¥) only. 
+> - The amount must be prefixed by the currency symbol. We support US Dollars ($), Euros (€), and Japanese Yen (¥) only. 
 >> 
->> Negative amounts may be indicated either by a negative sign before the currency symbol or by enclosing the amount (including currency symbol) in parentheses, such as ($450) 
+> - Negative amounts may be indicated either by a negative sign before the currency symbol or by enclosing the amount (including currency symbol) in parentheses, such as ($450) 
 >> 
->> Dollar and Euro amounts may contain an amount of cents, represented to exactly two digits of precision. 
+> - Dollar and Euro amounts may contain an amount of cents, represented to exactly two digits of precision. 
 >> 
->> If a decimal point is present, the cents must be specified 
+> - If a decimal point is present, the cents must be specified 
 >> 
->> Yen amounts may not contain decimal points * Amounts may not contain a leading zero, unless it is zero Dollars or Euros and cents are specified 
+> - Yen amounts may not contain decimal points * Amounts may not contain a leading zero, unless it is zero Dollars or Euros and cents are specified 
 >> 
->> Any other characters, including leading or trailing whitespace, is invalid 
+> - Any other characters, including leading or trailing whitespace, is invalid 
     
 
