@@ -8,6 +8,8 @@ https://regexone.com/lesson/introduction_abcs
 
 https://www.debuggex.com/cheatsheet/regex/javascript
 
+https://regexcrossword.com/
+
 https://youtu.be/rhzKDrUiJVk to follow along
 ## Format 
 starts with `/` ends with `/` everything contained within this is the regEx
