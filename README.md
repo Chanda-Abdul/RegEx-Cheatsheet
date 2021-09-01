@@ -3,6 +3,7 @@
 <b>Regex (Regular Expressions)</b> are a way to search through a string of text in an advanced way
 
 https://regexr.com/ for practice and reference
+https://regexone.com/lesson/introduction_abcs
 
 https://youtu.be/rhzKDrUiJVk to follow along
 ## Format 
